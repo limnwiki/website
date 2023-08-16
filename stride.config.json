@@ -1,0 +1,9 @@
+{
+	"address": "localhost",
+	"port": 8000,
+	"serve": "public",
+	"build": "stags test",
+	"watch": ".",
+	"nolog": true,
+	"ignore": [".git"]
+}

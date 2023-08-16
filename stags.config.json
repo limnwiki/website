@@ -1,0 +1,21 @@
+{
+    "url": "https://limn.wiki/",
+    "testing_url": "http://localhost:8000/",
+    "data_processing_command": "./scripts/markdown.sh {file} {dest}",
+
+    "variables": {},
+
+    "rss_feeds": [
+        {
+            "title": "limn.wiki",
+            "description": "posts",
+            "file": "public/index.xml",
+            "source": "posts",
+            "content_tag": "article",
+            "include_index": false
+        }
+    ],
+
+    "auto_routes": true,
+    "clear_public_directory": true
+}
